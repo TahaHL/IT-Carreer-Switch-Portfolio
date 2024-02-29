@@ -743,6 +743,7 @@ a{
     .js-image{
         height: 50px !important;
         object-fit: contain !important;
+        width: 50px;
     }
     .home-container button{
         margin-top: -10px;
@@ -785,16 +786,21 @@ a{
         height: 100px;
     }
     .nav-links-container ul{
+        position: relative;
         padding-left: 10px;
         margin-left: 50px;
+        top: -70px;
     }
     .fa-house, .fa-user, .fa-briefcase, .fa-phone{
         font-size: 18px;
     }
     .logo{
+        position: relative;
         width: 80px;
         height: 80px;
         margin-left: 0;
+        margin-top: 0px;
+        position: relative;
     }
     .nav-links-container ul{
         width: 100%;
@@ -811,7 +817,7 @@ a{
         font-size: 20px;
     }
     .home-text-container{
-        left: 0px;
+        left: 10px;
         top: 80px;
     }
     .home-text-container button{

@@ -848,13 +848,16 @@ a{
         margin: 0 0px;
     }
     .home-container button{
-        position: absolute;
+        position: relative;
         margin-top: -10px;
         margin-left: -5px;
 
     }
     .about-container{
         margin-top: 180px;
+    }
+    .about-container button{
+        padding: 0;
     }
 }
 

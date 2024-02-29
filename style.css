@@ -773,10 +773,14 @@ a{
     .next-button{
         position: relative;
         left: -10px;
+        width: 40px;
+        height: 40px;
     }
     .prev-button{
         position: relative;
         right: -10px;
+        width: 40px;
+        height: 40px;
     }
 }
 
@@ -859,7 +863,6 @@ a{
     .about-container button{
         padding: 0;
         height: 37px;
-        margin: 0;
     }
 }
 

@@ -520,6 +520,7 @@ a{
 }
 
 @media (max-width: 1175px){
+    
     .nav-links-container ul{
         width: 100%;
         right: 50px;
@@ -528,7 +529,7 @@ a{
         margin-top: 15px;
         width: 380px;
         height: 380px;
-        margin-left: -40px;
+        margin-left: 100px;
     }
     .job-title{
         font-size: 28px;
@@ -583,7 +584,7 @@ a{
     }
     .logo{
         width: 200px;
-        margin-bottom: 20px;
+
         margin-top: 5px;
     }
     .nav-links-container ul{
@@ -710,6 +711,43 @@ a{
 }
 
 @media (max-width: 500px){
+    .logo{
+        min-height: 100px;
+    }
+    .nav-links-container ul{
+        width: 100%;
+        right: 50px;
+    }
+    .home-image{
+        margin-top: -115px;
+        width: 380px;
+        height: 380px;
+        margin-left: 500px;
+    }
+    .job-title{
+        font-size: 28px;
+    }
+    .home-text-container{
+        left: -60px;
+        top: 240px;
+    }
+    .language-image{
+        height: 50px;
+        width: 50px;
+        transition: 0s;
+    }
+    .language-image-container{
+        width: 400px;
+        transition: 0s;
+    }
+    .js-image{
+        height: 50px !important;
+        object-fit: contain !important;
+    }
+    .home-container button{
+        margin-top: -10px;
+        margin-left: 00px;
+    }
     .about-card{
         width: 325px;
         height: 380px;    
@@ -739,6 +777,69 @@ a{
     .prev-button{
         position: relative;
         right: -10px;
+    }
+}
+
+@media (max-width: 400px){
+    .nav-links-container{
+        height: 100px;
+    }
+    .nav-links-container ul{
+        padding-left: 10px;
+        margin-left: 50px;
+    }
+    .fa-house, .fa-user, .fa-briefcase, .fa-phone{
+        font-size: 18px;
+    }
+    .logo{
+        width: 80px;
+        height: 80px;
+        margin-left: 0;
+    }
+    .nav-links-container ul{
+        width: 100%;
+        right: 50px;
+        margin-top: 65px;
+    }
+    .home-image{
+        margin-top: -115px;
+        width: 250px;
+        height: 250px;
+        margin-left: 470px;
+    }
+    .job-title{
+        font-size: 20px;
+    }
+    .home-text-container{
+        left: 0px;
+        top: 80px;
+    }
+    .home-text-container button{
+        position: relative;
+       width: 140px; 
+       left: 50px;
+       padding: 12px 0px;
+    }
+    .my-portfolio-button{
+        margin-right: 25px;
+
+    }
+    .language-image{
+        height: 50px;
+        width: 50px;
+        transition: 0s;
+    }
+    .language-image-container{
+        width: 400px;
+        transition: 0s;
+    }
+    .js-image{
+        height: 50px !important;
+        object-fit: contain !important;
+    }
+    .home-container button{
+        margin-top: -10px;
+        margin-left: 00px;
     }
 }
 

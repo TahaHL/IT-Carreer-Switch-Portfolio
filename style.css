@@ -790,8 +790,8 @@ a{
     }
     .nav-links-container ul{
         position: relative;
-        padding-left: 10px;
-        margin-left: 50px;
+        left: 7px;
+        gap: 50px;
         top: -70px;
     }
     .fa-house, .fa-user, .fa-briefcase, .fa-phone{
@@ -806,27 +806,29 @@ a{
         position: relative;
     }
     .nav-links-container ul{
-        width: 100%;
-        right: 50px;
+        width: 100vw;
         margin-top: 65px;
+        margin-left: 0;
+        right: 0px;
+        padding: 0;
     }
     .home-image{
         margin-top: -105px;
         width: 250px;
         height: 250px;
-        margin-left: 470px;
+        margin-left: 440px;
     }
     .job-title{
         font-size: 20px;
     }
     .home-text-container{
-        left: 10px;
+        left: 20px;
         top: 100px;
     }
     .home-text-container button{
         position: relative;
        width: 140px; 
-       left: 50px;
+       left: 42px;
        padding: 12px 0px;
     }
     .my-portfolio-button{
@@ -842,7 +844,7 @@ a{
         transition: 0s;
     }
     .language-image-container{
-        width: 400px;
+        width: 99vw;
         height: 90px;
         transition: 0s;
     }
@@ -864,6 +866,59 @@ a{
         height: 37px;
         margin: auto;
         font-size: 8px;
+    }
+    .portfolio-title, .portfolio-caption{
+        margin-left: 0px;
+    }
+    .portfolio-container{
+        margin-top: 550px;
+    }
+    .portfolio-cards{
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .portfolio-images{
+        width: 340px;
+        height: 360px;
+        margin-left: 16px;
+    }
+    .portfolio-description{
+        margin-left: 0px;
+    }
+    .aerovista-image-adjustment{
+        margin-left: 56px;
+        order: -1;
+    }
+    .contact{
+        margin-top: 600px;
+        flex-direction: column;
+    }
+    .contact-text{
+        margin-left: -300px;
+    }
+    .contact-text h2{
+        width: 350px;
+        font-size: 60px;
+        margin-left: 25px;
+    }
+    .contact-text p{
+        text-align: center;
+        width: 350px;
+        margin-left: 310px;
+        font-size: 14px;
+    }
+    .contact-text input, .contact-text button{
+        width: 330px;
+        margin-left: 315px;
+    }
+    .contact-text button{
+        width: 330px;
+        margin-left: 320px;
+    }
+    .info-box{
+        width: 300px;
+        margin-left: -25px;
+        
     }
 }
 

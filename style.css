@@ -766,9 +766,8 @@ a{
         margin-top: -9px;
     }
     .about-container button{
-        width: 30px;
-        height: 30px;
-        font-size: 15px;
+        width: 40px;
+        height: 40px;
         text-align: center
     }
     .next-button{
@@ -846,10 +845,12 @@ a{
     .js-image{
         height: 50px !important;
         object-fit: contain !important;
+        margin: 0 0px;
     }
     .home-container button{
         margin-top: -10px;
         margin-left: -5px;
+        padding: 0;
     }
 }
 

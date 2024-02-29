@@ -858,6 +858,7 @@ a{
     }
     .about-container button{
         padding: 0;
+        height: 37px;
     }
 }
 

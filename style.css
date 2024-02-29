@@ -1,0 +1,748 @@
+@font-face {
+    font-family: roboto;
+    src: url(fonts/RobotoSlab-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: helvetica;
+    src: url(fonts/Helvetica-Bold.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+ul, li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-links-container{
+    width: 100%;
+}
+
+.nav-links-container ul{
+    position: relative;
+    top: 30px;
+    right: 80px;
+    display: flex;
+    justify-content: end;
+    gap: 90px;
+    width: 100%;
+}
+
+.nav-links-container ul a{
+    color: black;
+    font-size: 25px;
+    transition: ease-in-out 0.2s;
+}
+
+.nav-links-container ul a:hover{
+    color: rgb(43, 202, 255);
+}
+
+.logo{
+    position: absolute;
+    width: 80px;
+    height: 110px;
+    object-fit: cover;
+    z-index: 2;
+    margin-top: -10px;
+    margin-left: 30px;
+}
+
+.nav-links-container h6{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    margin-left: 130px;
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+.home-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.home-image-container{  
+    margin-top: 160px;
+    animation: homeImage 1s; 
+    margin-left: -400px;
+}
+
+.home-image{
+    object-fit: cover;
+    width: 450px;
+    height: 450px;
+    object-position: 100% 63%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px 8px rgb(141, 224, 252); /* Blue shadow */
+    animation: borderColorAnimated infinite 5s;
+}
+
+.home-text-container{
+    position: relative;
+    left: 450px;
+    margin-left: -330px;
+    margin-top: 240px;
+}
+
+.job-title{
+    text-align: start;
+    font-weight: 500;
+    font-size: 33px;
+    animation: homeText 1s;
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+
+.language-image-container{
+    overflow: hidden;
+    width: 500px;
+    height: 100px;
+    white-space: nowrap;
+}
+
+.logo-slide{
+    display: inline-block;
+    animation: 8s slide infinite linear;
+    margin-bottom: 40px;
+}
+
+.language-image{
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+    margin: 0 30px;
+    transition: 5s;
+}
+
+.js-image{
+    position: relative;
+    top: 0px;
+    height: 100px !important;
+    width: 100px !important;
+    object-fit: cover;
+}
+
+.home-container button{
+    width: 170px;
+    padding: 18px 0px;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.my-portfolio-button{
+    background-color: rgba(43,202,255,1);
+    color: white;
+    border-color:  rgba(43,202,255,1);
+    margin: 0 50px;
+}
+
+.about-me-button{
+    color: rgb(255, 117, 244);
+    border-color: rgb(255, 117, 244);
+    background-color: transparent;
+}
+
+.about-me-button a{
+    position: relative;
+    color: rgb(255, 117, 244);
+}
+
+.about-me-button a:hover{
+    color: white !important;
+}
+
+.my-portfolio-button:hover{
+    background-color: rgba(43,202,255,1);
+    color: white;
+}
+
+.about-me-button:hover{
+    background-color: rgb(255, 117, 244);
+    color: white;
+}
+
+.about-me-title{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 240px;
+    padding-top: 60px;
+}
+
+.about-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding-top: 180px;
+    margin-top: 230px;
+    margin-bottom: 340px;
+}
+
+.about-card{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    width: 900px;
+    height: 500px;
+    box-shadow: 0px 0px 20px 2px rgb(192, 192, 192);
+    border-radius: 50px;
+    opacity: 1;
+    animation: aboutCardAnimation 0.6s ease-in-out;
+}
+
+@keyframes aboutCardAnimation{
+    from{
+        opacity: 0;
+    }
+}
+
+
+.about-me-image{
+    height: 100%;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.about-me-text-container h4{
+    text-align: center;
+    width: 100%;
+    font-size: 29px;
+    margin-top: 20px;
+    font-family: roboto !important;
+    font-weight: 500;
+}
+
+.about-me-text-container p{
+    text-align: center;
+    margin: 0px 60px;
+    font-family: roboto !important;
+    font-weight: 500;
+    color: rgb(87, 86, 86);
+    margin-top: -10px;
+    min-width: 400px;
+}
+
+.about-container button{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: auto;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.next-button{
+    background-color: rgba(0, 191, 255, 0.9);
+}
+
+.next-button:hover{
+    box-shadow: 0px 0px 10px 5px rgba(2, 100, 133, 0.9);
+}
+
+.prev-button{
+    background-color: rgba(255, 117, 244, 0.9)
+}
+
+.prev-button:hover{
+    box-shadow: 0px 0px 10px 5px rgba(179, 52, 168, 0.9);
+}
+
+
+.hide{
+    display: none;
+}
+
+.portfolio-title{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: -700px;
+    font-size: 32px;
+    color: rgba(0, 191, 255, 0.9);
+    font-weight: 700;
+}
+
+.portfolio-caption{
+    text-align: center;
+    margin-left: -450px;
+    margin-top: -20px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 70px;
+}
+
+.portfolio-container{
+    margin-top: -30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 1300px;
+}
+
+.portfolio-cards{
+    margin-top: -50px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-images{
+    width: 400px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px 1px rgb(175, 175, 175);
+    margin-top: 15px;
+}
+
+.portfolio-description{
+    text-align: center;
+    margin-left: 90px;
+}
+
+.portfolio-description h4{
+    font-size: 20px;
+}
+
+.portfolio-description p{
+    color: rgb(87, 86, 86);
+    margin: 0 14px;
+    font-size: 15px;
+    line-height: 26px;
+    width: 350px;
+}
+
+.portfolio-frameworks-used{
+    color: rgba(255, 117, 244, 1);
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 0px;
+    font-weight: 700;
+    word-spacing: 20px;
+}
+
+.portfolio-description a{
+    color: rgb(29, 29, 29);
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.live-code{
+    margin-left: 20px;
+}
+
+.live-demo{
+    margin-left: 30px;
+}
+
+.fa-share, .fa-github{
+    margin-right: 10px;
+}
+
+.aerovista-image-adjustment{
+    position: relative;
+    left: -40px;
+    margin-left: 150px;
+}
+
+.frameworks-used-color{
+    color: rgba(43,202,255,1);
+}
+
+.hijrah-image-adjustment{
+    object-fit: cover;
+}
+
+.contact{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.contact-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-text h2{
+    position: relative;
+    left: 300px;
+    font-size: 68px;
+    font-family: roboto;
+    color: rgb(20, 20, 20);
+}
+
+.contact-text p{
+    margin-left: 300px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    width: 600px;
+}
+
+.contact-text input{
+    width: 400px;
+    margin-left: 300px;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 1px grey;
+    font-size: 15px;
+    padding: 10px 0px 10px 10px;
+    font-family: roboto;
+    margin-bottom: 50px;
+}
+
+.contact-text button{
+    width: 550px;
+    height: 50px;
+    margin-left: 300px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    letter-spacing: 10px;
+    font-family: roboto;
+    cursor: pointer;
+}
+
+.info-container{
+    margin-left: 100px;
+}
+
+.info-box{
+    position: relative;
+    top: 61px;
+    height: 450px;
+    background-color: rgb(20, 20, 20);
+    width: 700px;
+}
+
+.info-box h6{
+    position: relative;
+    top: 30px;
+    color: white;
+    font-size: 32px;
+    font-family: roboto;
+    margin-left: 50px;
+    margin-bottom: 60px;
+}
+
+.info-box p{
+    position: relative;
+    color: white;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 60px;
+}
+
+.fa-envelope, .fa-phone, .fa-linkedin, .fa-file{
+    position: relative;
+    margin-right: 20px;
+    font-size: 28px;
+    top: 3px;
+} 
+
+.small-pink-box{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(255, 117, 244);
+    left: -30px;
+    top: -30px;
+}
+
+.big-blue-rectangle{
+    position: absolute;
+    right: 0;
+    top: -100px;
+    height: 650px;
+    width: 230px;
+    background-color: rgba(43,202,255,1);
+    z-index: -1;
+}
+
+@keyframes slide{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes borderColorAnimated {
+    50%{box-shadow: 0px 0px 50px 2px rgb(255, 117, 244)}
+}
+
+@keyframes homeImage {
+    0% {
+        margin-top: 100px;
+        opacity: 0;
+    }
+    100% {
+        margin-top: 160px;
+        opacity: 1;
+    }
+}
+
+@keyframes homeText{
+    0% {
+        margin-top: 10px;
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 1175px){
+    .nav-links-container ul{
+        width: 100%;
+        right: 50px;
+    }
+    .home-image{
+        margin-top: 15px;
+        width: 380px;
+        height: 380px;
+        margin-left: -40px;
+    }
+    .job-title{
+        font-size: 28px;
+    }
+    .language-image{
+        height: 50px;
+        width: 50px;
+        transition: 0s;
+    }
+    .language-image-container{
+        width: 400px;
+        transition: 0s;
+    }
+    .js-image{
+        height: 50px !important;
+        object-fit: contain !important;
+    }
+    .home-container button{
+        margin-top: -10px;
+        margin-left: 00px;
+    }
+    .about-card{
+        width: 600px;
+        height: 400px;    
+    }
+    .about-me-image{
+        width: 250px;
+    }
+    .about-me-text-container p{
+        min-width: 200px;
+        font-size: 11px;
+        margin-top: -30px;
+    }
+    .next-button{
+        position: relative;
+        left: -40px;
+    }
+    .prev-button{
+        position: relative;
+        right: -40px;
+    }
+
+}
+
+@media (max-width: 930px){
+    .logo-container{
+        justify-content: center;
+        display: flex;
+    }
+    .logo-container h6{
+        display: none;
+    }
+    .logo{
+        width: 200px;
+        margin-bottom: 20px;
+        margin-top: 5px;
+    }
+    .nav-links-container ul{
+        justify-content: center;
+        margin-top: 90px;
+        margin-left: 40px;
+    }
+    .home-image{
+        margin-top: -85px;
+        width: 310px;
+        height: 310px;
+        margin-left: 500px;
+    }
+
+    .home-text-container{
+       position: relative;
+       left: -20px;
+       top: 200px;
+    }
+    .job-title{
+        font-size: 28px;
+        text-align: center;
+        text-wrap: nowrap;
+    }
+    .language-image{
+        margin-top: 0px;
+        height: 50px;
+        width: 50px;
+        transition: 0s;
+    }
+    .language-image-container{
+        margin-top: -20px;
+        width: 400px;
+        transition: 0s;
+    }
+    .js-image{
+        height: 50px !important;
+        object-fit: contain !important;
+    }
+    .home-container button{
+        margin-top: 10px;
+        margin-left: 00px;
+    }
+    .about-card{
+        width: 500px;
+        height: 340px;    
+    }
+    .about-me-image{
+        width: 150px;
+    }
+    .about-me-text-container h4{
+        font-size: 20px;
+    }
+    .about-me-text-container p{
+        min-width: 200px;
+        font-size: 9.5px;
+        margin-top: 0px;
+    }
+    .about-container button{
+        width: 50px;
+        height: 50px;
+        font-size: 17px;
+    }
+    .next-button{
+        position: relative;
+        left: -60px;
+    }
+    .prev-button{
+        position: relative;
+        right: -60px;
+    }
+}
+
+@media (max-width: 750px){
+    .about-card{
+        width: 350px;
+        height: 340px;    
+    }
+    .about-me-image{
+        width: 150px;
+    }
+    .about-container{
+        gap: 0px;
+    }
+    .about-me-text-container h4{
+        font-size: 13px;
+    }
+    .about-me-text-container p{
+        min-width: 120px;
+        font-size: 9px;
+        margin: 0 10px;
+        margin-top: -9px;
+    }
+    .about-container button{
+        width: 40px;
+        height: 40px;
+        font-size: 17px;
+    }
+    .next-button{
+        position: relative;
+        left: -45px;
+    }
+    .prev-button{
+        position: relative;
+        right: -45px;
+    }
+}
+
+@media (max-width: 540px){
+    .about-me-text-container p{
+        min-width: 120px;
+        font-size: 8px;
+        margin: 0 10px;
+        margin-top: -9px;
+    }
+    .next-button{
+        position: relative;
+        left: -30px;
+    }
+    .prev-button{
+        position: relative;
+        right: -30px;
+    }
+}
+
+@media (max-width: 500px){
+    .about-card{
+        width: 325px;
+        height: 380px;    
+    }
+    .about-me-image{
+        width: 150px;
+    }
+    .about-me-text-container h4{
+        font-size: 18px;
+    }
+    .about-me-text-container p{
+        min-width: 120px;
+        font-size: 8px;
+        margin: 0 10px;
+        margin-top: -9px;
+    }
+    .about-container button{
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+        text-align: center
+    }
+    .next-button{
+        position: relative;
+        left: -10px;
+    }
+    .prev-button{
+        position: relative;
+        right: -10px;
+    }
+}
+
+
+    
+
+

@@ -808,7 +808,7 @@ a{
         margin-top: 65px;
     }
     .home-image{
-        margin-top: -115px;
+        margin-top: -105px;
         width: 250px;
         height: 250px;
         margin-left: 470px;
@@ -818,7 +818,7 @@ a{
     }
     .home-text-container{
         left: 10px;
-        top: 80px;
+        top: 100px;
     }
     .home-text-container button{
         position: relative;
@@ -830,6 +830,9 @@ a{
         margin-right: 25px;
 
     }
+    .logo-slide{
+        margin-bottom: 10px;
+    }
     .language-image{
         height: 50px;
         width: 50px;
@@ -837,6 +840,7 @@ a{
     }
     .language-image-container{
         width: 400px;
+        height: 90px;
         transition: 0s;
     }
     .js-image{
@@ -845,7 +849,7 @@ a{
     }
     .home-container button{
         margin-top: -10px;
-        margin-left: 00px;
+        margin-left: -5px;
     }
 }
 

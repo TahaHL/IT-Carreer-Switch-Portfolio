@@ -855,7 +855,6 @@ a{
         position: relative;
         margin-top: -10px;
         margin-left: -5px;
-
     }
     .about-container{
         margin-top: 180px;
@@ -863,6 +862,8 @@ a{
     .about-container button{
         padding: 0;
         height: 37px;
+        margin: auto;
+        font-size: 12px;
     }
 }
 

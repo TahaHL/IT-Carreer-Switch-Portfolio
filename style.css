@@ -711,15 +711,14 @@ a{
 }
 
 @media (max-width: 500px){
-    *{
-        scroll-behavior: smooth;
-    }
     .home-container{
         flex-direction: column;
         justify-content: center;
         width: 100%;
     }
     .home-image{
+        position: relative;
+        top: -47px;
         width: 280px;
         height: 280px;
         margin-left: 58%;
@@ -733,22 +732,28 @@ a{
     }
     .language-image-container{
        width: 100%; 
+       margin-top: 20px;
+       height: 90px;
     }
     .job-title{
-        margin-left: 65px;
-        margin-top: 10px;
+        margin: 0 auto;
+        margin-top: -20px  !important;
         text-align: center;
-        width: 300px;
+        width: 100vw;
         font-size: 18px;
     }
     .home-text-container button{
+        position: relative;
         padding: 12px 0px;
-        margin-right: 0px;
+        margin: 0 auto;
         width: 130px;
         font-size: 16px;
     }
+    .home-button{
+        text-align: center;
+    }
     .my-portfolio-button{
-        margin-left: 82px !important;
+        margin-left: 0!important;
     }
     .about-me-button{
         margin-left: 12px !important;
@@ -763,9 +768,11 @@ a{
     }
     .fa-house, .fa-user, .fa-briefcase, .fa-phone{
         font-size: 18px;
+        width: 23px;
+        height: 23px;
     }
     .fa-phone{
-       font-size: 24px;
+        font-size: 23px;
     }
     .logo-container{
         width: 100%;
@@ -785,16 +792,22 @@ a{
         padding: 0;
     }
     .about-container{
-        margin-top: 180px;
+        margin-top: 110px;
     }
     .about-container button{
         padding: 0;
         height: 37px;
+        width: 37px;
         margin: auto;
         font-size: 8px;
+        left: 0px;
+    }
+    .about-card p{
+        font-size: 9px;
     }
     .portfolio-title, .portfolio-caption{
         margin-left: 0px;
+        text-align: center;
     }
     .portfolio-caption{
         font-size: 16px;
@@ -808,7 +821,7 @@ a{
     }
     .portfolio-images{
         position: relative;
-        width: 100%;
+        width: 100vw;
         height: 360px;
         border-radius: 0;
     }
@@ -817,8 +830,7 @@ a{
         width: 100vw;
     }
     .portfolio-description p{
-        width: 85vw;
-        margin: auto;
+        width: 90vw;
     }
     .aerovista-image-adjustment{
         order: -1;
@@ -828,30 +840,35 @@ a{
     }
     .contact{
         margin-top: 600px;
-        width: 100vw;
         flex-direction: column;
+        width: 100vw;
     }
     .contact-text{
-        margin-left: -300px;
+        text-align: center;
+        align-items: center;
     }
     .contact-text h2{
         text-align: center;
-        width: 100vw;
         font-size: 57px;
         text-wrap: nowrap;
+        width: 100vw;
+        left: 0;
+        right: 0;
     }
     .contact-text p{
         text-align: center;
-        width: 85vw;
-        margin-left: 330px;
+        width: 100vw;
         font-size: 14px;
+        text-align: center;
+        margin: 0;
+        padding-bottom: 40px;
     }
     .contact-text input, .contact-text button{
         width: 90vw;
-        margin-left: 315px;
+        margin: 0;
     }
-    .contact-text button{
-        margin-left: 320px;
+    .contact-text input {
+        margin-bottom: 55px;
     }
     .info-box{
         width: 100%;
@@ -866,9 +883,6 @@ a{
 }
 
 @media (max-width: 400px){
-    *{
-        scroll-behavior: smooth;
-    }
     .home-container{
         flex-direction: column;
         justify-content: center;
@@ -987,30 +1001,22 @@ a{
     .contact{
         margin-top: 600px;
         flex-direction: column;
-    }
-    .contact-text{
-        margin-left: -300px;
+        width: 100vw;
     }
     .contact-text h2{
         text-align: center;
-        width: 350px;
         font-size: 57px;
         text-wrap: nowrap;
-        margin-left: 15px;
+        margin-left: 0;
+        left: 0;
     }
     .contact-text p{
         text-align: center;
-        width: 350px;
-        margin-left: 310px;
+        width: 95vw;
         font-size: 14px;
     }
     .contact-text input, .contact-text button{
-        width: 330px;
-        margin-left: 315px;
-    }
-    .contact-text button{
-        width: 330px;
-        margin-left: 320px;
+        width: 90vw;
     }
     .info-box{
         width: 100%;

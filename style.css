@@ -785,12 +785,50 @@ a{
 }
 
 @media (max-width: 400px){
+    .home-container{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .home-image{
+        width: 280px;
+        height: 280px;
+        margin-left: 58%;
+    }
+    .home-text-container{
+        margin-top: 0;
+        top: 0;
+        width: 100%;
+        margin-left: 0;
+        left: 0;
+    }
+    .language-image-container{
+       width: 100%; 
+    }
+    .job-title{
+        margin-left: 46px;
+        margin-top: 10px;
+        text-align: center;
+        width: 300px;
+        font-size: 18px;
+    }
+    .home-text-container button{
+        padding: 12px 0px;
+        margin-right: 0px;
+        width: 130px;
+        font-size: 16px;
+    }
+    .my-portfolio-button{
+        margin-left: 48px !important;
+    }
+    .about-me-button{
+        margin-left: 14px !important;
+    }
     .nav-links-container{
         height: 100px;
     }
     .nav-links-container ul{
         position: relative;
-        left: 7px;
         gap: 50px;
         top: -70px;
     }
@@ -809,7 +847,7 @@ a{
         position: relative;
         width: 80px;
         height: 80px;
-        left: -10px;
+        left: -15px;
         margin-top: 0px;
     }
     .nav-links-container ul{
@@ -818,58 +856,6 @@ a{
         margin-left: 0;
         right: 0px;
         padding: 0;
-    }
-    .home-image{
-        position: relative;
-        margin-top: -105px;
-        width: 250px;
-        height: 250px;
-        left: 60vw;
-        margin-left: 0px;
-    }
-    .job-title{
-        font-size: 20px;
-    }
-    .home-container{
-        width: 100%;
-        height: 800px;
-    }
-    .home-text-container{
-        left: 67vw;
-        top: 100px;
-    }
-    .home-text-container button{
-        position: relative;
-       width: 140px; 
-       left: 42px;
-       padding: 12px 0px;
-    }
-    .my-portfolio-button{
-        margin-right: 25px;
-
-    }
-    .logo-slide{
-        margin-bottom: 10px;
-    }
-    .language-image{
-        height: 50px;
-        width: 50px;
-        transition: 0s;
-    }
-    .language-image-container{
-        width: 99vw;
-        height: 90px;
-        transition: 0s;
-    }
-    .js-image{
-        height: 50px !important;
-        object-fit: contain !important;
-        margin: 0 0px;
-    }
-    .home-container button{
-        position: relative;
-        margin-top: -10px;
-        margin-left: -5px;
     }
     .about-container{
         margin-top: 180px;
@@ -891,16 +877,19 @@ a{
         margin-top: 0px;
     }
     .portfolio-images{
-        width: 340px;
+        position: relative;
+        width: 100%;
         height: 360px;
-        margin-left: 16px;
+        border-radius: 0;
     }
     .portfolio-description{
         margin-left: 0px;
     }
     .aerovista-image-adjustment{
-        margin-left: 56px;
         order: -1;
+        margin-left: 0;
+        right: 0;
+        left: 0;
     }
     .contact{
         margin-top: 600px;

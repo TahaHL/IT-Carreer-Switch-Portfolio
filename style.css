@@ -875,6 +875,8 @@ a{
         width: 100%;
     }
     .home-image{
+        position: relative;
+        top: -47px;
         width: 280px;
         height: 280px;
         margin-left: 58%;
@@ -888,22 +890,28 @@ a{
     }
     .language-image-container{
        width: 100%; 
+       margin-top: 20px;
+       height: 90px;
     }
     .job-title{
-        margin-left: 46px;
-        margin-top: 10px;
+        margin: 0 auto;
+        margin-top: -20px  !important;
         text-align: center;
-        width: 300px;
+        width: 100vw;
         font-size: 18px;
     }
     .home-text-container button{
+        position: relative;
         padding: 12px 0px;
-        margin-right: 0px;
+        margin: 0 auto;
         width: 130px;
         font-size: 16px;
     }
+    .home-button{
+        text-align: center;
+    }
     .my-portfolio-button{
-        margin-left: 62px !important;
+        margin-left: 0!important;
     }
     .about-me-button{
         margin-left: 12px !important;
@@ -918,10 +926,12 @@ a{
     }
     .fa-house, .fa-user, .fa-briefcase, .fa-phone{
         font-size: 18px;
+        width: 23px;
+        height: 23px;
     }
     .fa-phone{
-        
-        font-size: 23px !important;
+        top: 0px;
+        margin-right: 0px;
     }
     .logo-container{
         width: 100%;

@@ -785,6 +785,9 @@ a{
 }
 
 @media (max-width: 400px){
+    *{
+        scroll-behavior: smooth;
+    }
     .home-container{
         flex-direction: column;
         justify-content: center;
@@ -836,9 +839,8 @@ a{
         font-size: 18px;
     }
     .fa-phone{
-        position: relative;
-        margin-right: 0px;
-        top: 0px;
+        
+        font-size: 23px !important;
     }
     .logo-container{
         width: 100%;
@@ -899,9 +901,11 @@ a{
         margin-left: -300px;
     }
     .contact-text h2{
+        text-align: center;
         width: 350px;
-        font-size: 60px;
-        margin-left: 25px;
+        font-size: 57px;
+        text-wrap: nowrap;
+        margin-left: 15px;
     }
     .contact-text p{
         text-align: center;

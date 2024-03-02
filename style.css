@@ -967,6 +967,9 @@ a{
     .about-container{
         margin-top: 180px;
     }
+    .about-container p{
+        font-size: 8.4px;
+    }
     .about-container button{
         padding: 0;
         height: 37px;

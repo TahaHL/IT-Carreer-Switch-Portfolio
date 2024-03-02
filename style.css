@@ -944,8 +944,7 @@ a{
         height: 23px;
     }
     .fa-phone{
-        top: 0px;
-        margin-right: 0px;
+        font-size: 23px;
     }
     .logo-container{
         width: 100%;

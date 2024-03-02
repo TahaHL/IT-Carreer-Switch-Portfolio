@@ -772,7 +772,8 @@ a{
         height: 23px;
     }
     #phone1{
-        top: 0;
+        font-size: 17px;
+        top: 1px;
         margin-right: 0;
     }
     #phone2{

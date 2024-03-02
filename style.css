@@ -768,12 +768,9 @@ a{
     }
     .fa-house, .fa-user, .fa-briefcase, #phone1{
         font-size: 18px;
-        width: 23px;
-        height: 23px;
     }
     #phone1{
-        font-size: 17px;
-        top: 1px;
+        top: 0px;
         margin-right: 0;
     }
     #phone2{

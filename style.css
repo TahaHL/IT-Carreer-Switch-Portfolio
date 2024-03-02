@@ -766,12 +766,16 @@ a{
         gap: 50px;
         top: -70px;
     }
-    .fa-house, .fa-user, .fa-briefcase, .fa-phone{
+    .fa-house, .fa-user, .fa-briefcase, #phone1{
         font-size: 18px;
         width: 23px;
         height: 23px;
     }
-    .fa-phone{
+    #phone1{
+        top: 0;
+        margin-right: 0;
+    }
+    #phone2{
         font-size: 23px;
     }
     .logo-container{
@@ -938,12 +942,16 @@ a{
         gap: 50px;
         top: -70px;
     }
-    .fa-house, .fa-user, .fa-briefcase, .fa-phone{
+    .fa-house, .fa-user, .fa-briefcase, #phone1{
         font-size: 18px;
         width: 23px;
         height: 23px;
     }
-    .fa-phone{
+    #phone1{
+        top: 0;
+        margin-right: 0;
+    }
+    #phone2{
         font-size: 23px;
     }
     .logo-container{
@@ -971,7 +979,8 @@ a{
     }
     .about-container button{
         padding: 0;
-        height: 37px;
+        height: 30px;
+        width: 30px;
         margin: auto;
         font-size: 8px;
     }

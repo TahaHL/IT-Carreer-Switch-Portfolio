@@ -656,6 +656,41 @@ a{
         position: relative;
         right: -60px;
     }
+    .portfolio-cards{
+        flex-direction: column;
+    }
+    .contact{
+        margin-top: 600px;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .contact-text h2{
+        text-align: center;
+        font-size: 57px;
+        text-wrap: nowrap;
+        margin-left: 0;
+        left: 0;
+    }
+    .contact-text p{
+        text-align: center;
+        width: 95vw;
+        font-size: 14px;
+        margin-left: 5vw;
+    }
+    .contact-text input, .contact-text button{
+        width: 90vw;
+        margin-left: 5vw;
+    }
+    .info-box{
+        width: 100%;
+    }
+    .info-box p{
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    .info-box h6{
+        margin-left: 15px;
+    }
 }
 
 @media (max-width: 750px){
@@ -691,6 +726,43 @@ a{
         position: relative;
         right: -45px;
     }
+    .portfolio-title, .portfolio-caption{
+        text-align: center;
+        margin-left: 0px;
+    }
+    .portfolio-container{
+        margin-top: 10vw;
+        height: 100%;
+    }
+    .portfolio-cards{
+
+        margin-bottom: 120px;
+    }
+    .portfolio-images{
+        width: 60vw;
+        margin-left: 20vw;
+    }
+    .aerovista-image-adjustment{
+        order: -1;
+        right: 0;
+        left: 0;
+    }
+    .portfolio-description{
+        margin-left: 0;
+    }
+    .portfolio-description p{
+        text-align: center;
+        width: 60vw;
+        margin-left: 20vw;
+        margin-right: 0;
+    }
+    .portfolio-frameworks-used{
+        word-spacing: 3vw;
+    }
+    .live-demo{
+        width: 6vw;
+    }
+
 }
 
 @media (max-width: 540px){
@@ -813,9 +885,7 @@ a{
     }
     .portfolio-caption{
         font-size: 16px;
-    }
-    .portfolio-container{
-        margin-top: 550px;
+        margin-bottom: 0px;
     }
     .portfolio-cards{
         flex-direction: column;
@@ -826,6 +896,7 @@ a{
         width: 100vw;
         height: 360px;
         border-radius: 0;
+        margin-left: 0;
     }
     .portfolio-description{
         margin-left: 0px;
@@ -833,6 +904,7 @@ a{
     }
     .portfolio-description p{
         width: 90vw;
+        margin-left: 5vw;
     }
     .aerovista-image-adjustment{
         order: -1;
@@ -841,7 +913,7 @@ a{
         left: 0;
     }
     .contact{
-        margin-top: 600px;
+        margin-top: 100px;
         flex-direction: column;
         width: 100vw;
     }
@@ -1038,8 +1110,3 @@ a{
         margin-left: 15px;
     }
 }
-
-
-    
-
-

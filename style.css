@@ -1030,6 +1030,9 @@ a{
     .info-box h6{
         margin-left: 15px;
     }
+    .about-me-image{
+        width: 120px;
+    }
 }
 
 @media (max-width: 400px){
@@ -1121,7 +1124,7 @@ a{
         margin-top: 180px;
     }
     .about-container p{
-        font-size: 8.4px;
+        font-size: 8px;
     }
     .about-container button{
         padding: 0;

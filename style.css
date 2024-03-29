@@ -387,6 +387,7 @@ a{
 .contact-text{
     display: flex;
     flex-direction: column;
+    margin-left: -100px;
 }
 
 .contact-text h2{
@@ -519,20 +520,25 @@ a{
     }
 }
 
-@media (max-width: 1175px){
+@media (max-width: 1235px){
     
     .nav-links-container ul{
         width: 100%;
-        right: 50px;
     }
     .home-image{
         margin-top: 15px;
         width: 380px;
         height: 380px;
-        margin-left: 100px;
+        margin-left: 00px;
+    }
+    .home-text-container{
+        left: 400px;
     }
     .job-title{
         font-size: 28px;
+    }
+    #phone1{
+        font-size: 25px !important;
     }
     .language-image{
         height: 50px;
@@ -571,7 +577,32 @@ a{
         position: relative;
         right: -40px;
     }
-
+    .contact{
+        margin-top: 70px;
+        flex-direction: column;
+    }
+    .contact-text{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .contact-text p, .contact-text input, .contact-text button, .contact-text h2{
+        margin: auto;
+        text-align: center;
+        margin-bottom: 4vh;
+    }
+    .contact-text h2{
+        left: 0;
+        right: 0;
+    }
+    .info-container{
+        margin: auto;
+    }
+    .big-blue-rectangle{
+        display: none;
+    }
+    .info-box{
+        width: 70vw;
+    }
 }
 
 @media (max-width: 930px){
@@ -584,13 +615,23 @@ a{
     }
     .logo{
         width: 200px;
-
         margin-top: 5px;
+        margin-left: 5px;
     }
     .nav-links-container ul{
         justify-content: center;
         margin-top: 90px;
-        margin-left: 40px;
+        right: 0;
+        padding-left: 0;
+    }
+    .nav-links-container ul a{
+        display: inline-block;
+        width: 25px;
+        height: 26px;
+    }
+    #phone1{
+        font-size: 25px !important;
+        top: 0;
     }
     .home-image{
         margin-top: -85px;
@@ -659,8 +700,43 @@ a{
     .portfolio-cards{
         flex-direction: column;
     }
+    .portfolio-title, .portfolio-caption{
+        text-align: center;
+        margin-left: 0px;
+    }
+    .portfolio-container{
+        margin-top: 10vw;
+        height: 100%;
+    }
+    .portfolio-cards{
+
+        margin-bottom: 120px;
+    }
+    .portfolio-images{
+        width: 60vw;
+        margin-left: 20vw;
+    }
+    .aerovista-image-adjustment{
+        order: -1;
+        right: 0;
+        left: 0;
+    }
+    .portfolio-description{
+        margin-left: 0;
+    }
+    .portfolio-description p{
+        text-align: center;
+        width: 60vw;
+        margin-left: 20vw;
+        margin-right: 0;
+    }
+    .portfolio-frameworks-used{
+        word-spacing: 3vw;
+    }
+    .live-demo{
+        width: 6vw;
+    }
     .contact{
-        margin-top: 600px;
         flex-direction: column;
         width: 100vw;
     }
@@ -668,21 +744,19 @@ a{
         text-align: center;
         font-size: 57px;
         text-wrap: nowrap;
-        margin-left: 0;
+        width: 100vw;
         left: 0;
+        right: 0;
     }
     .contact-text p{
         text-align: center;
         width: 95vw;
         font-size: 14px;
-        margin-left: 5vw;
+        margin-left: 3vw;
     }
     .contact-text input, .contact-text button{
         width: 90vw;
-        margin-left: 5vw;
-    }
-    .info-box{
-        width: 100%;
+        margin-left: 4vw;
     }
     .info-box p{
         margin-left: 20px;
@@ -695,7 +769,7 @@ a{
 
 @media (max-width: 750px){
     .about-card{
-        width: 350px;
+        width: 75vw;
         height: 340px;    
     }
     .about-me-image{
@@ -709,7 +783,7 @@ a{
     }
     .about-me-text-container p{
         min-width: 120px;
-        font-size: 9px;
+        font-size: 10.6px;
         margin: 0 10px;
         margin-top: -9px;
     }
@@ -720,11 +794,11 @@ a{
     }
     .next-button{
         position: relative;
-        left: -45px;
+        left: -25px;
     }
     .prev-button{
         position: relative;
-        right: -45px;
+        right: -25px;
     }
     .portfolio-title, .portfolio-caption{
         text-align: center;
@@ -762,13 +836,15 @@ a{
     .live-demo{
         width: 6vw;
     }
-
+    .contact{
+        margin-top: 70px;
+    }
 }
 
 @media (max-width: 540px){
     .about-me-text-container p{
         min-width: 120px;
-        font-size: 8px;
+        font-size: 10px;
         margin: 0 10px;
         margin-top: -9px;
     }
@@ -783,6 +859,9 @@ a{
 }
 
 @media (max-width: 500px){
+    .logo{
+        margin-left: 30px;
+    }
     .home-container{
         flex-direction: column;
         justify-content: center;
@@ -839,7 +918,7 @@ a{
         top: -70px;
     }
     .fa-house, .fa-user, .fa-briefcase, #phone1{
-        font-size: 18px;
+        font-size: 18px !important;
     }
     #phone1{
         top: 0px;
@@ -943,9 +1022,6 @@ a{
     }
     .contact-text input {
         margin-bottom: 55px;
-    }
-    .info-box{
-        width: 100%;
     }
     .info-box p{
         margin-left: 20px;
@@ -1098,9 +1174,6 @@ a{
     }
     .contact-text input, .contact-text button{
         width: 90vw;
-    }
-    .info-box{
-        width: 100%;
     }
     .info-box p{
         margin-left: 20px;

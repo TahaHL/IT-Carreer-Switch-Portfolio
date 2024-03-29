@@ -1002,7 +1002,7 @@ a{
     }
     .contact-text h2{
         text-align: center;
-        font-size: 57px;
+        font-size: 54px;
         text-wrap: nowrap;
         width: 100vw;
         left: 0;
@@ -1010,7 +1010,7 @@ a{
     }
     .contact-text p{
         text-align: center;
-        width: 100vw;
+        width: 90vw;
         font-size: 14px;
         text-align: center;
         margin: 0;

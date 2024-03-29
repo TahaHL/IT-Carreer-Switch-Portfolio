@@ -217,11 +217,14 @@ a{
 
 .about-me-image{
     height: 100%;
-    width: 400px;
+    width: 300px;
     object-fit: cover;
     border-radius: 50px 0px 0px 50px;
+    object-position: 10% 50%;
 }
-
+.about-me-img2, .about-me-img3{
+    object-position: 80% 100%;
+}
 .about-me-text-container h4{
     text-align: center;
     width: 100%;
@@ -673,6 +676,10 @@ a{
         width: 500px;
         height: 340px;    
     }
+    .about-container{
+        margin-top: 0;
+        margin-bottom: 180px;
+    }
     .about-me-image{
         width: 150px;
     }
@@ -688,6 +695,9 @@ a{
         width: 50px;
         height: 50px;
         font-size: 17px;
+    }
+    .about-me-img2, .about-me-img3{
+        object-position: 50% 100% !important;
     }
     .next-button{
         position: relative;
@@ -944,9 +954,6 @@ a{
         right: 0px;
         padding: 0;
     }
-    .about-container{
-        margin-top: 110px;
-    }
     .about-container button{
         padding: 0;
         height: 37px;
@@ -1120,9 +1127,7 @@ a{
         right: 0px;
         padding: 0;
     }
-    .about-container{
-        margin-top: 180px;
-    }
+    
     .about-container p{
         font-size: 8px;
     }
@@ -1132,6 +1137,9 @@ a{
         width: 30px;
         margin: auto;
         font-size: 8px;
+    }
+    .about-me-text-container p{
+        margin-top: 10px;
     }
     .portfolio-title, .portfolio-caption{
         margin-left: 0px;

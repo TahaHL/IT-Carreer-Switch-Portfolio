@@ -18,6 +18,11 @@ body{
     scroll-behavior: smooth;
 }
 
+form{
+    display: flex;
+    flex-direction: column;
+}
+
 ul, li{
     list-style: none;
 }
@@ -421,6 +426,18 @@ a{
     margin-bottom: 50px;
 }
 
+.contact-text textarea{
+    max-width: 400px;
+    margin-left: 300px;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 1px grey;
+    font-size: 15px;
+    padding: 10px 0px 10px 10px;
+    font-family: roboto;
+    margin-bottom: 50px;
+}
+
 .contact-text button{
     width: 550px;
     height: 50px;
@@ -588,10 +605,11 @@ a{
         width: 100%;
         margin-left: 0px;
     }
-    .contact-text p, .contact-text input, .contact-text button, .contact-text h2{
+    .contact-text p, .contact-text input, .contact-text button, .contact-text h2, .contact-text textarea{
         margin: auto;
         text-align: center;
         margin-bottom: 4vh;
+        width: 400px;
     }
     .contact-text h2{
         left: 0;
@@ -764,9 +782,15 @@ a{
         font-size: 14px;
         margin-left: 3vw;
     }
-    .contact-text input, .contact-text button{
-        width: 90vw;
+    .contact-text input, .contact-text textarea{
+        min-width: 90vw !important;
         margin-left: 4vw;
+        margin-right: 0px;
+    }
+    .contact-text button{
+        width: 90vw;
+        margin-left: 5vw;
+        margin-right: 0px;
     }
     .info-box p{
         margin-left: 20px;
@@ -1023,9 +1047,13 @@ a{
         margin: 0;
         padding-bottom: 40px;
     }
-    .contact-text input, .contact-text button{
+    .contact-text input, .contact-text textarea{
         width: 90vw;
-        margin: 0;
+        margin-left: 0;
+    }
+    .contact-text button{
+        width: 90vw;
+        margin-left: 0;
     }
     .contact-text input {
         margin-bottom: 55px;
@@ -1183,8 +1211,9 @@ a{
         width: 95vw;
         font-size: 14px;
     }
-    .contact-text input, .contact-text button{
-        width: 90vw;
+    .contact-text input, .contact-text button, .contact-text textarea{
+        width: 90vw !important;
+        margin-left: 0;
     }
     .info-box p{
         margin-left: 20px;

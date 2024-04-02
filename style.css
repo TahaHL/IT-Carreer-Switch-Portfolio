@@ -695,7 +695,7 @@ a{
         height: 340px;    
     }
     .about-container{
-        margin-top: 0;
+        margin-top: 170px;
         margin-bottom: 180px;
     }
     .about-me-image{
@@ -978,6 +978,9 @@ a{
         right: 0px;
         padding: 0;
     }
+    .about-container{
+        margin-top: 0px !important;
+    }
     .about-container button{
         padding: 0;
         height: 37px;
@@ -1155,7 +1158,6 @@ a{
         right: 0px;
         padding: 0;
     }
-    
     .about-container p{
         font-size: 8px;
     }
@@ -1173,7 +1175,7 @@ a{
         margin-left: 0px;
     }
     .portfolio-container{
-        margin-top: 550px;
+        margin-top: 40px;
     }
     .portfolio-cards{
         flex-direction: column;
@@ -1195,7 +1197,7 @@ a{
         left: 0;
     }
     .contact{
-        margin-top: 600px;
+        margin-top: 100px;
         flex-direction: column;
         width: 100vw;
     }

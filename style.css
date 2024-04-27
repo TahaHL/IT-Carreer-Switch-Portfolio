@@ -225,7 +225,6 @@ a{
     width: 300px;
     object-fit: cover;
     border-radius: 50px 0px 0px 50px;
-    object-position: 10% 50%;
 }
 .about-me-img2, .about-me-img3{
     object-position: 80% 100%;

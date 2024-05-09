@@ -31,3 +31,4 @@ prevButton.addEventListener("click", function(){
     }
     aboutCardsImagehandler();
 });
+

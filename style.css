@@ -816,7 +816,7 @@ a{
     }
     .about-me-text-container p{
         min-width: 120px;
-        font-size: 10.6px;
+        font-size: 10.2px;
         margin: 0 10px;
         margin-top: -9px;
     }
@@ -877,9 +877,9 @@ a{
 @media (max-width: 540px){
     .about-me-text-container p{
         min-width: 120px;
-        font-size: 10px;
+        font-size: 9px;
         margin: 0 10px;
-        margin-top: -9px;
+        margin-top: 9.6px;
     }
     .next-button{
         position: relative;
@@ -1158,7 +1158,7 @@ a{
         padding: 0;
     }
     .about-container p{
-        font-size: 8px;
+        font-size: 7px;
     }
     .about-container button{
         padding: 0;

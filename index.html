@@ -97,8 +97,8 @@
                 <h4>MAGNIFIQUE 👗 (incomplete)</h4>
                 <p>Welcome to Magnifique, your ultimate destination for women's accessories, clothing, and perfumes. Discover curated elegance in every piece, from exquisite handbags to statement jewelry. Elevate your style with Magnifique and embrace sophistication with every wear.</p>
                 <h6 class="portfolio-frameworks-used">React Tailwind</h6>
-                <a class="live-code" href="https://github.com/Lecheeky/magnifique"><i class="fa-brands fa-github"></i>Code</a>
-                <a class="live-demo" href="https://lecheeky.github.io/magnifique/"><i class="fa-solid fa-share"></i>Live Demo</a>
+                <a target="_blank" class="live-code" href="https://github.com/Lecheeky/magnifique"><i class="fa-brands fa-github"></i>Code</a>
+                <a target="_blank" class="live-demo" href="https://lecheeky.github.io/magnifique/"><i class="fa-solid fa-share"></i>Live Demo</a>
             </div>
         </div>
 
@@ -107,8 +107,8 @@
                 <h4>Calevent 📅</h4>
                 <p>Welcome to Calevent: your event exploration hub! Search by date and prices, while staying updated with global news. Powered by Ticketmaster API, it's your go-to for entertainment and information, all in one place. Explore now!</p>
                 <h6 class="portfolio-frameworks-used frameworks-used-color">API JavaScript</h6>
-                <a class="live-code" href="https://github.com/abdalla-diaai/calevent"><i class="fa-brands fa-github"></i>Code</a>
-                <a class="live-demo" href="https://abdalla-diaai.github.io/calevent/"><i class="fa-solid fa-share"></i>Live Demo</a>
+                <a target="_blank" class="live-code" href="https://github.com/abdalla-diaai/calevent"><i class="fa-brands fa-github"></i>Code</a>
+                <a target="_blank" class="live-demo" href="https://abdalla-diaai.github.io/calevent/"><i class="fa-solid fa-share"></i>Live Demo</a>
             </div>
             <img class="portfolio-images aerovista-image-adjustment" src="images/calevent.png">
         </div>
@@ -119,8 +119,8 @@
                 <h4>HIJRAH HIKERS 🕌 (incomplete)</h4>
                 <p>Embark on a spiritual journey with Hijrah Hikers, hiking from Mecca to Medina. Affordable tickets make it perfect for families and friends seeking a religious escape. Join us for a memorable pilgrimage through the sacred lands.</p>
                 <h6 class="portfolio-frameworks-used">React Tailwind</h6>
-                <a class="live-code" href="https://github.com/Lecheeky/HijrahHikers"><i class="fa-brands fa-github"></i>Code</a>
-                <a class="live-demo" href="https://lecheeky.github.io/HijrahHikers/"><i class="fa-solid fa-share"></i>Live Demo</a>
+                <a target="_blank" class="live-code" href="https://github.com/Lecheeky/HijrahHikers"><i class="fa-brands fa-github"></i>Code</a>
+                <a target="_blank" class="live-demo" href="https://lecheeky.github.io/HijrahHikers/"><i class="fa-solid fa-share"></i>Live Demo</a>
             </div>
         </div>
     </div>
@@ -129,10 +129,11 @@
         <div class="contact-text">
             <h2>Contact Me</h2>
             <p>"Thrilled that you've explored my portfolio! I'm excited about the possibility of working together. Reach out, and let's bring your vision to life!"</p>
-            <form>
-            <input type="text" placeholder="Name">
-            <input type="email" placeholder="Email">
-            <textarea type="text" placeholder="Message"></textarea>
+            <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="f52a4d09-fdd4-42a4-aaee-04fa6918ca3d">
+            <input type="text" name="name" placeholder="Name">
+            <input id="email" name="email" type="email" placeholder="Email">
+            <textarea type="text" name="message" placeholder="Message"></textarea>
             <button>SEND</button>
             </form>
         </div>
@@ -142,8 +143,8 @@
                 <h6>Info</h6>
                 <p><i class="fa-solid fa-envelope"></i>thadjlakehal@gmail.com</p>
                 <p><i id="phone2" class="fa-solid fa-phone"></i>07477616361</p>
-                <p><i class="fa-brands fa-linkedin"></i>LinkedIn</p>
-                <p><i class="fa-solid fa-file"></i>CV</p>
+                <p><i class="fa-brands fa-linkedin"></i><a target="_blank" href="https://www.linkedin.com/in/taha-hl-066538197/">LinkedIn</a></p>
+                <p><i class="fa-solid fa-file"></i><a target="_blank" href="images/Junior Frontend CV.pdf">CV</a></p>
                 <span class="big-blue-rectangle"></span>
             </div>
         </div>
@@ -152,5 +153,6 @@
 
     <script src="https://kit.fontawesome.com/0742941a86.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 </html>

@@ -74,7 +74,7 @@
             </div>
         </div>
         <div class="about-card about-card-animated hide">
-            <img class="about-me-image about-me-img3" src="images/about-me.jpg">
+            <img class="about-me-image about-me-img3" src="images/about-me.png">
             <div class="about-me-text-container">
                 <h4>ARCHITECT & SWIMMER</h4>
                 <p>Before embracing technology, I delved into architecture, refining my eye for detail and spatial understanding. Simultaneously, I pursued competitive swimming at a national level, embodying discipline and perseverance in every stroke.<br><br>
@@ -129,13 +129,19 @@
         <div class="contact-text">
             <h2>Contact Me</h2>
             <p>"Thrilled that you've explored my portfolio! I'm excited about the possibility of working together. Reach out, and let's bring your vision to life!"</p>
-            <form action="https://api.web3forms.com/submit" method="POST">
-            <input type="hidden" name="access_key" value="f52a4d09-fdd4-42a4-aaee-04fa6918ca3d">
-            <input type="text" name="name" placeholder="Name">
-            <input id="email" name="email" type="email" placeholder="Email">
-            <textarea type="text" name="message" placeholder="Message"></textarea>
-            <button>SEND</button>
-            </form>
+                <form id="form" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="f52a4d09-fdd4-42a4-aaee-04fa6918ca3d">
+                        <div class="validate-container">
+                            <input id="name" type="text" name="name" placeholder="Name  (required)">
+                            <p class="validate-name">Please fill in this field*</p>
+                        </div>
+                        <div class="validate-container">
+                            <input id="email" name="email" type="email" placeholder="Email  (required)">
+                            <p class="validate-email">Please fill in this field*</p>
+                        </div>
+                    <textarea type="text" name="message" placeholder="Message"></textarea>
+                    <button>SEND</button>
+                </form>
         </div>
         <div class="info-container">
             <div class="info-box">
@@ -153,6 +159,5 @@
 
     <script src="https://kit.fontawesome.com/0742941a86.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 </html>

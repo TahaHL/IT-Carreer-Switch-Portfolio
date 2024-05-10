@@ -226,7 +226,7 @@ a{
     object-fit: cover;
     border-radius: 50px 0px 0px 50px;
 }
-.about-me-img2, .about-me-img3{
+.about-me-img2{
     object-position: 80% 100%;
 }
 .about-me-text-container h4{
@@ -448,6 +448,23 @@ a{
     cursor: pointer;
 }
 
+.validate-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.validate-name, .validate-email{
+    position: relative;
+    top: -20px;
+    font-size: 15px;
+    color: red;
+    padding-bottom: 0px !important;
+    font-weight: 700;
+    margin-bottom: 0px !important;
+    display: none;
+}
+
 .info-container{
     margin-left: 100px;
 }
@@ -576,12 +593,16 @@ a{
         margin-top: -10px;
         margin-left: 00px;
     }
+    
     .about-card{
         width: 600px;
         height: 400px;    
     }
     .about-me-image{
         width: 250px;
+    }
+    .about-me-text-container h4{
+        font-size: 25px;
     }
     .about-me-text-container p{
         min-width: 200px;
@@ -706,7 +727,7 @@ a{
     .about-me-text-container p{
         min-width: 200px;
         font-size: 9.5px;
-        margin-top: 0px;
+        margin-top: -15px;
     }
     .about-container button{
         width: 50px;
@@ -1059,6 +1080,10 @@ a{
     }
     .contact-text input {
         margin-bottom: 55px;
+    }
+    .validate-name, .validate-email{
+        position: relative;
+        top: -40px;
     }
     .info-box p{
         margin-left: 20px;

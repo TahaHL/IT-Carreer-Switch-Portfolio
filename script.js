@@ -32,3 +32,15 @@ prevButton.addEventListener("click", function(){
     aboutCardsImagehandler();
 });
 
+const validateNameInput = document.querySelector(".validate-name")
+const validateEmailInput = document.querySelector(".validate-email")
+
+document.getElementById("form").addEventListener("submit", function(event){
+    const emailInput = document.getElementById("email").value
+    const nameInput = document.getElementById("name").value
+    if(!emailInput && !nameInput){
+        validateNameInput.style.display = "block"
+        validateEmailInput.style.display = "block"
+        event.preventDefault();
+    }
+})

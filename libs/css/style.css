@@ -1,11 +1,11 @@
 @font-face {
     font-family: roboto;
-    src: url(fonts/RobotoSlab-VariableFont_wght.ttf);
+    src: url(../fonts/RobotoSlab-VariableFont_wght.ttf);
 }
 
 @font-face {
     font-family: helvetica;
-    src: url(fonts/Helvetica-Bold.ttf);
+    src: url(../fonts/Helvetica-Bold.ttf);
 }
 
 body{
@@ -90,7 +90,7 @@ a{
     object-fit: cover;
     width: 450px;
     height: 450px;
-    object-position: 100% 63%;
+    object-position: 100% 30%;
     border-radius: 50%;
     box-shadow: 0px 0px 50px 8px rgb(141, 224, 252); /* Blue shadow */
     animation: borderColorAnimated infinite 5s;
@@ -301,12 +301,12 @@ a{
 }
 
 .portfolio-container{
-    margin-top: -30px;
+    margin-top: 80px;
     width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 1300px;
+    height: auto;
 }
 
 .portfolio-cards{
@@ -369,7 +369,7 @@ a{
     margin-right: 10px;
 }
 
-.aerovista-image-adjustment{
+.cd-image-adjustment{
     position: relative;
     left: -40px;
     margin-left: 150px;
@@ -764,7 +764,7 @@ a{
         width: 60vw;
         margin-left: 20vw;
     }
-    .aerovista-image-adjustment{
+    .cd-image-adjustment{
         order: -1;
         right: 0;
         left: 0;
@@ -870,7 +870,7 @@ a{
         width: 60vw;
         margin-left: 20vw;
     }
-    .aerovista-image-adjustment{
+    .cd-image-adjustment{
         order: -1;
         right: 0;
         left: 0;
@@ -1039,7 +1039,7 @@ a{
         width: 90vw;
         margin-left: 5vw;
     }
-    .aerovista-image-adjustment{
+    .cd-image-adjustment{
         order: -1;
         margin-left: 0;
         right: 0;
@@ -1214,7 +1214,7 @@ a{
     .portfolio-description{
         margin-left: 0px;
     }
-    .aerovista-image-adjustment{
+    .cd-image-adjustment{
         order: -1;
         margin-left: 0;
         right: 0;
